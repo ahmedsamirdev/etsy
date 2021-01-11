@@ -1,28 +1,27 @@
 .ef__container {
   display: flex;
-  flex-direction: row;
   margin: 0 auto;
   width: 95%;
-  box-sizing: border-box;
 }
 
 .ef__block {
-  width: 206px;
   margin: 0 auto;
   text-align: center;
   padding: 9px;
-  box-sizing: border-box;
 }
 
 .ef-title {
   font-weight: 800;
-  font-size: 13px;
+  font-size: 90%;
   padding-bottom: 9px;
   cursor: pointer;
 }
 
 .ef-img {
-  width: 160px;
+  width: 11.5vw;
+}
+@media (min-width:801px)  { 
+
 }
 
 .ef-img-clip {

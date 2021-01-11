@@ -2,6 +2,7 @@ import "./SearchBar.module.css";
 function SearchBar() {
   return (
     <>
+    <div className="search_container">
       <svg xmlns="http://www.w3.org/2000/svg" style={{ display: "none" }}>
         <symbol
           xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +65,7 @@ function SearchBar() {
         document.querySelector('.searchbox [type="reset"]').addEventListener('click', function() {  this.parentNode.querySelector('input').focus();});
       `}
       </script>
+      </div>
     </>
   );
 }
