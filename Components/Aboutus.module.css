@@ -1,0 +1,21 @@
+.aboutus__container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin: 2rem 0;
+}
+
+.aboutus_block {
+  width: 95%;
+  text-align: center;
+  margin: 0 50px;
+}
+.aboutus-title:before {
+  content: url(/check.svg);
+  margin: 0 2px;
+}
+
+.aboutus-info {
+  font-size: 14px;
+  font-weight: 200;
+}

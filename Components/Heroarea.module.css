@@ -1,0 +1,21 @@
+.heroarea__container {
+  background-color: #f8ebe6;
+}
+
+.hero__title {
+  padding-top: 20px;
+  font-size: 25px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.finds__title {
+  padding-top: 16px;
+  font-size: 19px;
+  line-height: 36px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+}
