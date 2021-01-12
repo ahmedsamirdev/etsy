@@ -3,33 +3,40 @@
   margin: 0 auto;
   width: 95%;
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  .ef__block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  }
+  .ef__block {
+    width: 50%;
+  width: calc(50% - 3em);
+  }
 
+  .ef-title {
+    margin-bottom: 12px
+
+  }
+}
 .ef__block {
   margin: 0 auto;
   text-align: center;
   padding: 9px;
+  width: 100%;
 }
 
 .ef-title {
   font-weight: 800;
-  font-size: 90%;
+  font-size: 0.7rem;
   padding-bottom: 9px;
   cursor: pointer;
 }
 
 .ef-img {
-  width: 11.5vw;
-}
-@media (min-width:801px)  { 
-
-}
-
-.ef-img-clip {
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
+  width: 100%;
+  border-radius: 50%;
 }
 
 .ef__block:hover {
-    filter: drop-shadow(10px 10px 25px #fff);
-
+  filter: drop-shadow(10px 10px 25px #fff);
 }

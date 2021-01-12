@@ -40,7 +40,7 @@ function EverydayFinds() {
         {EverydayFindsarr.map(function (u) {
           return (
             <div className="ef__block">
-              <img src={u.img} className="ef-img ef-img-clip " />
+              <img src={u.img} className="ef-img " />
               <div className="ef-title">
                 <Link href={u.url}>
                   <span className="ef-title">{u.title}</span>

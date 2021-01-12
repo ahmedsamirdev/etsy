@@ -46,8 +46,7 @@ function Recentlyviewed() {
                   <img
                     src={t.img}
                     className="product__photo"
-                    height="160"
-                    width="203"
+            
                   />
                 </Link>
                 <span className="product__price">{t.price}</span>
