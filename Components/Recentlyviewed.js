@@ -49,7 +49,7 @@ function Recentlyviewed() {
             
                   />
                 </Link>
-                <span className="product__price">{t.price}</span>
+                <h5 className="product__price">{t.price}</h5>
               </div>
             );
           })}
