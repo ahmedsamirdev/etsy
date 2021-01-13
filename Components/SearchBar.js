@@ -29,21 +29,21 @@ function SearchBar() {
       <form
         novalidate="novalidate"
         onsubmit="return false;"
-        className="searchbox sbx-custom"
+        className="searchbox searchbar"
       >
-        <div role="search" className="sbx-custom__wrapper">
+        <div role="search" className="searchbar__wrapper">
           <input
             type="search"
             name="search"
             placeholder="Search for anything"
             autocomplete="off"
             required="required"
-            className="sbx-custom__input"
+            className="searchbar__input"
           />
           <button
             type="submit"
             title="Submit your search query."
-            className="sbx-custom__submit"
+            className="searchbar__submit"
           >
             <svg role="img" aria-label="Search">
               <use href="#sbx-icon-search-14"></use>
@@ -52,7 +52,7 @@ function SearchBar() {
           <button
             type="reset"
             title="Clear the search query."
-            className="sbx-custom__reset"
+            className="searchbar__reset"
           >
             <svg role="img" aria-label="Reset">
               <use href="#sbx-icon-clear-5"></use>

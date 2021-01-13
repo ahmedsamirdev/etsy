@@ -5,33 +5,31 @@
 }
 
 .navbar__container {
-  margin: 0 auto;
-  display: flex;
   padding-top: 1%;
   padding-bottom: 1%;
   align-items: center;
-  justify-content: space-between;
+  display: flex;
+  justify-content: center;
   width: 95%;
-  padding-left: 3% ;
-  padding-right: 3% ;
-
+  margin: 0 auto;
 }
-.logo_nav {
-  margin-right: 12px;
+.logo_container {
   cursor: pointer;
+  display: flex;
+  width: 100px;
+  object-fit: contain;
 }
-.search__nav {
+/* .search__nav {
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-}
-.searchicon {
+} */
+/* .searchicon {
   background: #efefef;
   padding: 15px;
   padding-right: 18px;
   border-radius: 0 25px 25px 0;
-}
-.searchinput {
+} */
+/* .searchinput {
   height: 45px;
   padding: 5px;
   padding-left: 18px;
@@ -40,46 +38,27 @@
   background: #efefef;
   border-radius: 25px 0 0 25px;
   border-color: #efefef;
-  box-sizing: border-box;
-}
-.nav__icons {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
+} */
 
+.cart_container {
+  margin-left: 1%;
+}
 .cart-btn {
-  align-items: center;
-  margin-right: 2px;
-  padding: 5px;
-  border-radius: inherit;
-  border: inherit;
-  border-radius: 25px;
-
-  width:24px;
   height: 24px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
 
-}
-
-.cart-btn:hover {
-  background: #e1e1e1 ;
 }
 
 .login--btn {
-  font-size: 13px;
   font-weight: 800;
   cursor: pointer;
   border-radius: 25px;
   border: none;
   outline: 0;
   padding: 0.5rem 1rem;
-background-color: none;
-margin-right: 1%;
-
 }
 
 .login--btn:hover {
   background: #e1e1e1;
-
 }
-
