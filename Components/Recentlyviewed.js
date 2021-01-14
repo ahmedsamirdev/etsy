@@ -38,19 +38,15 @@ function Recentlyviewed() {
     <>
       <div className="recentlyviewed__container">
         <span className="product__title">Recently viewed</span>
-        <div className="product__flex">
+        <div className="products__container">
           {Recentlyviewedarr.map(function (t) {
             return (
-              <div className="product__container">
-                <Link href={t.url}>
-                  <img
-                    src={t.img}
-                    className="product__photo"
-            
-                  />
-                </Link>
-                <h5 className="product__price">{t.price}</h5>
-              </div>
+              <>
+                <div className="product__container">
+                  <img src={t.img} className="product__photo" />
+                  <h5 className="product__price">{t.price}</h5>
+                </div>
+              </>
             );
           })}
         </div>
@@ -58,4 +54,6 @@ function Recentlyviewed() {
     </>
   );
 }
+
+
 export default Recentlyviewed;
