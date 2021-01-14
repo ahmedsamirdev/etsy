@@ -49,15 +49,18 @@
 
 @media (min-width: 381px) and (max-width: 767px) {
   .productsselection__container:nth-child(3n) {
-      display: none;
-    }
-  .productsselection__container:nth-child(4n) {
-      display: none;
-    }
-  .productsselection__container:nth-child(5n) {
-      display: none;
-    }
-  .productsselection__container:nth-child(6n) {
-      display: none;
-    }
+    display: none;
   }
+  .productsselection__container:nth-child(4n) {
+    display: none;
+  }
+  .productsselection__container:nth-child(5n) {
+    display: none;
+  }
+  .productsselection__container:nth-child(6n) {
+    display: none;
+  }
+  .productsselection__container {
+    margin: 0 auto;
+  }
+}

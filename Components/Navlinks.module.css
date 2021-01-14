@@ -9,8 +9,7 @@
   font-size: 13px;
   width: 95%;
   margin: 0 auto;
-  align-items:center;
-
+  align-items: center;
 }
 @media screen and (max-width: 768px) {
   .navlinks__contianer {
@@ -25,8 +24,8 @@
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  align-items:center;
-padding: 0 10px;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .navlinks > li:after {
@@ -40,7 +39,7 @@ padding: 0 10px;
   display: block;
   background: #1b1b1b;
   margin: 0 auto;
-    transform: translateY(12px);
+  transform: translateY(12px);
 }
 .navlinks > li:hover:after {
   width: 100%;

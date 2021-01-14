@@ -59,7 +59,7 @@ function Footer() {
             {About.map(function (o) {
               return (
                 <Link href={o.url}>
-                  <li key={o.title} className="footer__list">
+                  <li key={o.title} className="footer__list hide this">
                     {o.title}
                   </li>
                 </Link>

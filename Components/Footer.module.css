@@ -80,8 +80,10 @@
   .wrapper {
     text-align: center;
   }
-  .wrapper > li:nth-child(1n) {
+  .hidden_>li:nth-child(3n) {
+    display: none;
   }
+
   .footer_social {
     display: none;
   }

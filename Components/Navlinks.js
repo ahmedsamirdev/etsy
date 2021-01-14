@@ -21,7 +21,7 @@ function Navlinks() {
       <div className="navlinks__contianer">
         {navlinksarr.map(function (i) {
           return (
-            <ul className="navlinks">
+            <ul className="navlinks menu">
               <Link href={i.url}>
                 <li>{i.title}</li>
               </Link>
