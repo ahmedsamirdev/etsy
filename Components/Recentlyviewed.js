@@ -44,7 +44,7 @@ function Recentlyviewed() {
               <>
                 <div className="product__container">
                   <img src={t.img} className="product__photo" />
-                  <h5 className="product__price">{t.price}</h5>
+                  <h5 className="product____price">{t.price}</h5>
                 </div>
               </>
             );

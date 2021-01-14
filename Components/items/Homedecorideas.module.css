@@ -1,11 +1,13 @@
 .grid-container {
-  margin: 0 35px;
-  display: grid;
+  margin: 0 auto;
   padding: 10px;
-  box-sizing: border-box;
+  width: 95%;
 }
+
 .product___container {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .product___photo {
@@ -24,9 +26,23 @@
   text-align: left;
   margin-bottom: 100px;
 }
-
-.grid-container {
+@media (min-width: 381px) and (max-width: 767px) {
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .item2 {
+    width: 195px;
+    height: auto;
+  }
+  .item3 {
+    width: 195px;
+    height: auto;
+  }
 }
+
 .item1 {
   grid-row-start: 1;
   grid-row-end: 6;
