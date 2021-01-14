@@ -1,12 +1,10 @@
 .newsletter__container {
-  box-sizing: border-box;
 }
 .newsletter__container_a {
   background-color: #d7e6f5;
   border: #d7e6f5 0px solid;
   height: 200px;
   margin-top: -5px;
-  box-sizing: border-box;
 }
 .newsletter__title {
   text-align: center;
@@ -19,7 +17,6 @@
 }
 .newsletter__form {
   text-align: center;
-  box-sizing: border-box;
   outline: none;
 }
 .newsletter__mail {
@@ -33,7 +30,6 @@
   background: #ffffff;
   border-radius: 25px 0 0 25px;
   border-color: #efefef;
-  box-sizing: border-box;
   border: none;
 }
 .mail:hover {

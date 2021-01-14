@@ -42,3 +42,13 @@
     color: white;
 }
 
+@media (min-width: 381px) and (max-width: 767px) {
+  .footerline__container  {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  }
+  .footerline__right > div  {
+    font-size: 11px;
+  }
+  }
