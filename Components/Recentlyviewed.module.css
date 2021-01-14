@@ -3,41 +3,36 @@
   margin: 0 auto;
   width: 95%;
   padding-top: 2rem;
-
 }
 .products__container {
   display: flex;
-
 }
 .product__container {
   display: flex;
   flex-direction: column;
-  grid-row-gap: 15px;
   padding: 0.3%;
-  width: 100%;
-
-min-width: 100px;
-max-height: 400px;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 381px) and (max-width: 767px) {
   .products__container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 6px;
-grid-row-gap: 15px;
-grid-column-gap: 15px;
-
+    grid-row-gap: 5px;
+    grid-column-gap: 10px;
   }
-
-
+  .product__container > img {
+    cursor: pointer;
+    min-width: 100%;
+    height: 100%;
+  }
 }
 .product__container > img {
   cursor: pointer;
   width: 100%;
-  min-height: 200px;
-  object-fit: contain;
-  margin-bottom: 15px;
+  height: 100%;
+  margin-bottom: 5px;
 }
 .product__title {
   font-weight: bold;
