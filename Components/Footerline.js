@@ -61,13 +61,13 @@ function Footerline() {
         <div className="footerline__right">
           <span>© 2020 Etsy, Inc.</span>
           <Link href="/">
-            <div>Terms of Use</div>
+            <span>Terms of Use</span>
           </Link>
           <Link href="/">
-            <div>Privacy</div>
+            <span>Privacy</span>
           </Link>
           <Link href="/">
-            <div>Interest-based ads</div>
+            <span>Interest-based ads</span>
           </Link>
         </div>
       </div>

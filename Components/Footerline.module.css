@@ -17,14 +17,15 @@
   margin-left: 10px;
   color: white;
   letter-spacing: 0.8px;
+  cursor: pointer;
 }
+
 .footerline__right {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
-.footerline__right > div {
+.footerline__right > span {
   margin-left: 18px;
   font-size: 14px;
   font-weight: 400;
@@ -33,20 +34,22 @@
   cursor: pointer;
 }
 
-.footerline__right > span {
-    margin-left: 18px;
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
+.footerline__right > span:nth-child(1) {
+  margin-left: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  cursor: initial;
 }
 
 @media (min-width: 381px) and (max-width: 767px) {
-  .footerline__container  {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  .footerline__container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
   }
-  .footerline__right > div  {
+  .footerline__right > span {
     font-size: 11px;
   }
-  }
+}

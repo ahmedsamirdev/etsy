@@ -4,8 +4,7 @@
 }
 .rest {
   margin-left: 1038px;
-  margin-top: -150px;
-  padding-bottom: 48px;
+  margin-top: -60px;
 }
 .footer-flex {
   margin-left: -250px;
@@ -78,11 +77,11 @@
 
 @media (min-width: 381px) and (max-width: 767px) {
   .wrapper {
+    padding: 10px;
     text-align: center;
+
   }
-  .hidden_>li:nth-child(3n) {
-    display: none;
-  }
+  
 
   .footer_social {
     display: none;
@@ -93,4 +92,11 @@
   .social-icons {
     display: none;
   }
+  .footer-flex {
+    padding-left: 120px;
+  }
+  .rest {
+    margin-top: 0px;
+  }
 }
+

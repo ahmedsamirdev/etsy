@@ -20,8 +20,7 @@ function Footer() {
     { title: "Policies", url: "/" },
     { title: "Investors", url: "/" },
     { title: "Careers", url: "/" },
-    { title: "Press", url: "/" },
-    { title: "Impact", url: "/" },
+
     { title: "Legal imprint", url: "/" },
   ];
   var Help = [
