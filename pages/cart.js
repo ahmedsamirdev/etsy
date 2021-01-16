@@ -12,14 +12,15 @@ function cart() {
         }}
       >
         <button onClick={() => setHidden(!hidden)} className="login-btn">
-Login        </button>
-        <OutsideClickHandler />
+Login       
+ </button>
+        <OutsideClickHandler /> */}
       {hidden && (
         <div className="adasd">
-        <h1>hgh</h1>
-      </div>
-      )} */}
-      <div className="signin__container">
+          <h1>hgh</h1>
+        </div>
+      )}
+      {/* <div className="signin__container">
         <h3 className="signin-header">Sign In</h3>
 
         <div className="form-group">
@@ -56,9 +57,8 @@ Login        </button>
         <p>Trouble signing in?</p>
 
         <hr></hr>
-      </div>
-      _____________________
-      <h3>Sign Up</h3>
+      </div> */}
+      <h3 className="sign_title">Sign Up</h3>
       <div className="form-group">
         <label>First name</label>
         <input type="text" className="input-control" placeholder="First name" />
@@ -89,14 +89,30 @@ Login        </button>
       <p className="forgot-password text-right">
         Already registered <a href="#">sign in?</a>
       </p>
-      <div className="tabs__container">
-        <ul className="tabslist">
-          <li>Breakfast</li>
-          <li>Lunch</li>
-          <li>Dinner</li>
-          <li>Party Menu</li>
-        </ul>
+      _____________________
+      <h3 className="sign_title">Sign In</h3>
+        <div className="form-group">
+        <label>Email address</label>
+        <input
+          type="email"
+          className="input-control"
+          placeholder="Enter email"
+        />
       </div>
+      <div className="form-group">
+        <label>Password</label>
+        <input
+          type="password"
+          className="input-control"
+          placeholder="Enter password"
+        />
+      </div>
+      <button type="submit" className="submit-btn btn-primary btn-block">
+        Sign In
+      </button>
+      <p className="forgot-password text-right">
+        Already registered <a href="#">sign in?</a>
+      </p>
     </>
   );
 }

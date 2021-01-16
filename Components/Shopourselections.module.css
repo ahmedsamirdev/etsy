@@ -63,4 +63,7 @@
   .productsselection__container {
     margin: 0 auto;
   }
+  .shopourselection__header {
+    margin-top: 10px;
+  }
 }

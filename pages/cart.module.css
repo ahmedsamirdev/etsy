@@ -21,7 +21,6 @@
 .signin__container {
   width: 400px;
   margin: 0 auto;
-  box-sizing: border-box;
   background-color: yellowgreen;
   padding: 25px 35px;
   border-radius: 20px;
@@ -43,6 +42,7 @@
 }
 .form-group > .input-control {
   margin-bottom: 12px;
+  width: 240px;
   border: 0.5px solid rgb(196, 196, 196);
   box-shadow: inset 0px 0px 3px rgba(189, 186, 186, 0.637);
 }
@@ -51,7 +51,6 @@
   height: 48px;
   outline: none;
   padding: 9px 12px;
-  box-sizing: border-box;
   border-radius: 5px;
 }
 .checkbox-label {
@@ -59,15 +58,21 @@
 .submit-btn {
   margin-top: 12px;
   height: 48px;
-  width: 329px;
+  width: 250px;
   border-radius: 25px;
   outline: none;
+  border: none;
+  cursor: pointer;
   text-decoration: none;
   background-color: #222222;
   color: #ffff;
   font-size: 16px;
   font-weight: 500;
   padding: 12px 18px;
+}
+.submit-btn:hover{
+  background-color: #313131;
+
 }
 .control-input {
   margin-right: 5px;
@@ -84,7 +89,9 @@
   color: #868686;
   font-size: 13px;
 }
-
+.sign_title{
+  margin-bottom: 24px;
+}
 .p {
   color: #868686;
   font-size: 13px;

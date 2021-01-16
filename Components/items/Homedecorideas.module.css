@@ -10,7 +10,7 @@
   justify-content: flex-end;
 }
 
-.product___photo {
+.hd_product___photo {
   margin-top: 10px;
   cursor: pointer;
   width: 100%;
@@ -19,12 +19,11 @@
 /* .photo {
   min-width: 100%;
 } */
-.product___price {
+.Hd_product___price {
   font-weight: 700;
   font-size: 16px;
   padding-top: 2px;
   text-align: left;
-  margin-bottom: 100px;
 }
 @media (min-width: 381px) and (max-width: 767px) {
   .item1 {

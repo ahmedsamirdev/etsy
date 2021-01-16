@@ -42,63 +42,63 @@ function Homedecorideas() {
         <div className="item1">
           <img
             src="./wall.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="401px"
             height="319px"
           />
-          <span className="product___price">15.50 USD</span>
+          <span className="Hd_product___price">15.50 USD</span>
         </div>
         <div className="item2">
           <img
             src="./Gifts_for_her.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="192px"
             height="153px"
           />
-          <span className="product___price">25.50 USD</span>
+          <span className="Hd_product___price">25.50 USD</span>
         </div>
         <div className="item3">
           <img
             src="./Moodcards.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="192px"
             height="153px"
           />
-          <span className="product___price">35.50 USD</span>
+          <span className="Hd_product___price">35.50 USD</span>
         </div>
         <div className="item4">
           <img
             src="./wedding_gift.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="401px"
             height="319px"
           />
-          <span className="product___price">45.50 USD</span>
+          <span className="Hd_product___price">45.50 USD</span>
         </div>
         <div className="item5">
           <img
             src="./wall.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="192px"
             height="153px"
           />
-          <span className="product___price">55.50 USD</span>
+          <span className="Hd_product___price">55.50 USD</span>
         </div>
         <div className="item6">
           <img
             src="./wall.jpg"
-            className="product___photo"
+            className="hd_product___photo"
             width="192px"
             height="153px"
           />
-          <span className="product___price">65.50 USD</span>
+          <span className="Hd_product___price">65.50 USD</span>
         </div>
         {/* <div className={`item${index}`}>
               <div className="product___container">
                 <div className="photo">
                   <img src={a.img} className="product__photo" />
                 </div>
-                <span className="product___price">{a.price}</span>
+                <span className="Hd_product___price">{a.price}</span>
               </div> 
             </div> 
           );
