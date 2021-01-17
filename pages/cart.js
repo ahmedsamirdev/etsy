@@ -4,7 +4,7 @@
 
 function cart() {
   const [hidden, setHidden] = useState(false);
-  return <></>;
+  return <>Test</>;
 }
 
 export default cart;
