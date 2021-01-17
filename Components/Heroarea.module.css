@@ -21,3 +21,9 @@
   text-align: center;
   letter-spacing: 1px;
 }
+
+@media (min-width: 381px) and (max-width: 767px) {
+  .heroarea__container {
+    width: 100%;
+  }
+}

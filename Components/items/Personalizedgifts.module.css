@@ -65,28 +65,33 @@
     display: flex;
     flex-direction: column;
   }
+.grid-container>div{
+  margin: 0 20px;
 
+}
   .item1 > img {
+    width: 350px;
+    height: 195px;
   }
   .item2 > img {
-    width: 402px;
+    width: 350px;
     height: 195px;
   }
 
   .item3 > img {
-    width: 402px;
+    width: 350px;
     height: 195px;
   }
   .item4 > img {
-    width: 402px;
+    width: 350px;
     height: 195px;
   }
   .item5 > img {
-    width: 402px;
+    width: 350px;
     height: 195px;
   }
   .item6 > img {
-    width: 402px;
+    width: 350px;
     height: 195px;
   }
 }
