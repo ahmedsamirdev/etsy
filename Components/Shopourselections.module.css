@@ -25,12 +25,14 @@
   margin-top: 11px;
   display: flex;
   flex-direction: row;
+  
 }
 
 .li_shop_container {
   border: rgba(177, 177, 177, 0.541) 1px solid;
   border-radius: 11px;
   transition: opacity 200ms ease-out;
+
 }
 .li_shop_container:hover {
   box-shadow: 0px 0px 10px 10px #ededed;
@@ -55,7 +57,7 @@
     display: none;
   }
   .productsselection__container {
-    padding-left: 0%;
+    padding-left: 1%;
   }
 
   .productsselection__container {
@@ -63,5 +65,8 @@
   }
   .shopourselection__header {
     margin-top: 10px;
+  }
+  .ul_shop_container {
+  align-items: center;
   }
 }

@@ -65,10 +65,11 @@
     display: flex;
     flex-direction: column;
   }
-.grid-container>div{
-  margin: 0 20px;
-
-}
+  .grid-container > div {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
   .item1 > img {
     width: 350px;
     height: 195px;
