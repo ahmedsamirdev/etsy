@@ -3,7 +3,6 @@
 // import OutsideClickHandler from "react-outside-click-handler";
 
 function cart() {
-  const [hidden, setHidden] = useState(false);
   return <>Test</>;
 }
 
