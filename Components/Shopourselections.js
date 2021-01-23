@@ -53,8 +53,7 @@ function Shopourselections() {
                       <img
                         src={e.img}
                         className="shop_photo"
-                        height="160"
-                        width="200"
+              
                       />
                       <p className="shop_title">{e.title}</p>
                     </div>

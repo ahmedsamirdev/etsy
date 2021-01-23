@@ -40,6 +40,11 @@
     width: 195px;
     height: auto;
   }
+  .grid-container {
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-left: -10px;
+  }
 }
 
 .item1 {
