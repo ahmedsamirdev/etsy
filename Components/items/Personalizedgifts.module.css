@@ -5,6 +5,7 @@
 .pg_product___photo {
   object-fit: cover;
   width: 95%;
+  cursor: pointer;
 }
 .product___price {
   font-weight: 700;

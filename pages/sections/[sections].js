@@ -1,12 +1,12 @@
 import Layout from "../../Components/Layout";
+import "./Sections.module.css";
 
 function Sections() {
     return (
         <>
         <Layout>
-            <h1>ali</h1>
-            fdfsfdsf
-            dsd
+        <h1 className="test_title">Test Page</h1>
+        
         </Layout>
         </>
     )

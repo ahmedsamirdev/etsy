@@ -3,7 +3,9 @@
 // import OutsideClickHandler from "react-outside-click-handler";
 
 function cart() {
-  return <>Test</>;
+  return <>
+  <h1 className="test_title">Test Page</h1>
+  </>
 }
 
 export default cart;

@@ -4,8 +4,7 @@ function products() {
     return (
         <>
         <Layout>
-            <h1>a7aaa</h1>
-            asdasdsad
+        <h1 className="test_title">Test Page</h1>
         </Layout>
         </>
     )
