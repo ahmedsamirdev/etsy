@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  background-color: hsl(251, 100%, 50%);
 }
 .Shopourselections__title {
   margin-left: 3.5%;
