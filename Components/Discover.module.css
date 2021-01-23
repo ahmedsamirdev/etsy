@@ -37,6 +37,12 @@
 }
 
 @media (min-width: 381px) and (max-width: 767px) {
+  .discover-tab-list > li:nth-child(1n) {
+    display: none;
+  }
+  .discover-tab-list > li:nth-child(2n) {
+    display: none;
+  }
   .discover-tab-list > li:nth-child(3n) {
     display: none;
   }
