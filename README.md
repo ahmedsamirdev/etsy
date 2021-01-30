@@ -4,7 +4,7 @@ Landing page for etsy shop for perfect handmade gift,<br>vintage & on-trend clot
 
 #### [Live version](https://etsy-seven.vercel.app)
 #### [Original site](https://etsy.com)
-
+______________________________________________________
 #### Built With<br>
 HTML5 and CSS3<br>
 ReactJs<br>
