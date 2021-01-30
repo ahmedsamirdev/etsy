@@ -14,10 +14,42 @@ function Navbar() {
       <nav className="header">
         <div className="navbar__container">
           <div className="hidden">
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn">
-              <span class="navicon"></span>
-            </label>
+            <nav role="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu">
+                  <Link href="/sections/sections/Jewelry-and-Accessories">
+                    <li>Jewelrey and Accessories</li>
+                  </Link>
+                  <Link href="/sections/Clothing-and-Shoes">
+                    <li>Clothing & Shoes</li>
+                  </Link>
+                  <Link href="/sections/Home-and-Living">
+                    <li>Home & Living</li>
+                  </Link>
+                  <Link href="/sections/Wedding-and-Party">
+                    <li>Wedding & Party</li>
+                  </Link>
+                  <Link href="/sections/Toys-and-Entertainment">
+                    <li>Toys & Entertainment</li>
+                  </Link>
+                  <Link href="/sections/Art-and-Collectibles">
+                    <li>Art & Collectibles</li>
+                  </Link>
+                  <Link href="/sections/Craft-Supplies-and-Tools">
+                    <li>Craft Supplies & Tools</li>
+                  </Link>
+                  <Link href="/sections/Vintage">
+                    <li>Vintage</li>
+                  </Link>
+                </ul>
+              </div>
+            </nav>
           </div>
           <div className="logo_container">
             <Link href="/">
