@@ -1,4 +1,4 @@
-### Etsy (clone)
+### Etsy (Landing Page)
 Landing page for etsy shop for perfect handmade gift,<br>vintage & on-trend clothes, unique jewelry, and more.
 
 
