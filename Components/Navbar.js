@@ -24,7 +24,7 @@ function Navbar() {
 
                 <ul id="menu">
                   <Link href="/sections/sections/Jewelry-and-Accessories">
-                    <li>Jewelrey and Accessories</li>
+                    <li>Jewelrey & Accessories</li>
                   </Link>
                   <Link href="/sections/Clothing-and-Shoes">
                     <li>Clothing & Shoes</li>
