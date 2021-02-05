@@ -6,6 +6,7 @@
   }
   .base-container .header {
     font-size: 24px;
+    font-family: "Open Sans", sans-serif;
   }
   .base-container .content {
     display: flex;
@@ -39,6 +40,7 @@
     height: 37px;
     padding: 0px 10px;
     font-size: 16px;
+    font-family: "Open Sans", sans-serif;
     background-color: #f3f3f3;
     border: 0;
     border-radius: 4px;
